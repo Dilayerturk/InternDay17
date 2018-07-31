@@ -19,7 +19,9 @@ namespace barDuckDemo
 
         private void btnAnswer1_Click(object sender, EventArgs e)
         {
-            
+            Form3 openform3 = new Form3();
+            openform3.Show();
+            Visible = false;
         }
 
         private void btnAnswer2_Click(object sender, EventArgs e)
@@ -31,7 +33,9 @@ namespace barDuckDemo
 
         private void btnAnswer3_Click(object sender, EventArgs e)
         {
-           
+            Form3 openform3 = new Form3();
+            openform3.Show();
+            Visible = false;
         }
     }
 }
